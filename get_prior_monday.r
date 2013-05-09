@@ -2,13 +2,14 @@
 
 
 
-get_prior_monday <- function(Date) {
+get_prior_monday <- function(Date, weeks.back = 1) {
 
     # Get the names of the next seven days
-    next_seven <- seq(from = Date, length.out = 7, by = "day")
+    next.seven <- seq(from = Date, length.out = 7, by = "day")
 
 
     # The prior Monday is the next Monday minus seven days
-    prior_monday <- next_seven[format(next_seven, "%A") %in% "Monday"] - 7
+    prior.monday <- next.seven[format(next.seven, "%A") %in% "Monday"] - 
+                    (weeks.back * 7)
     
 }
