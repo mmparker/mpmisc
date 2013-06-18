@@ -22,7 +22,7 @@
 }
 \examples{
 dfprintif(Orange)
-dfprintif(Orange[0, ], msg = "THEY ALL DIED")
+dfprintif(Orange[0, ], norowmsg = "THEY ALL DIED")
 }
 \keyword{prettyprint}
 
