@@ -9,8 +9,7 @@
 #' @export
 #' 
 #' @examples
-#' dfprintif(Orange)
-#' dfprintif(Orange[0, ], msg = "THEY ALL DIED")
+#' dfprint(Orange)
 
 dfprint <- function(df, printdigits = 2) {
 
