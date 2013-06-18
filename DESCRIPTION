@@ -12,3 +12,4 @@ Collate:
     'dfprint.r'
     'dfprintif.r'
     'get_week_start.r'
+    'mpmisc-package.r'
