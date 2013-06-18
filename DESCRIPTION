@@ -1,10 +1,14 @@
 Package: mpmisc
 Title: A collection of miscellaneous functions for report-making.
 Version: 0.1
-Authors@R: Matt Parker <mattmparker@gmail.com>
-Description: 
+Author: Matt Parker
+Maintainer: Matt Parker <mattmparker@gmail.com>
+Description: A collection of miscellaneous functions for report-making.
 Depends:
     R (>= 3.0.1)
-License: 
-Suggests: 
-
+License: MIT
+Collate:
+    'connect_to_tbdbplus.r'
+    'dfprint.r'
+    'dfprintif.r'
+    'get_week_start.r'
