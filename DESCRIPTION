@@ -1,0 +1,10 @@
+Package: mpmisc
+Title: A collection of miscellaneous functions for report-making.
+Version: 0.1
+Authors@R: Matt Parker <mattmparker@gmail.com>
+Description: 
+Depends:
+    R (>= 3.0.1)
+License: 
+Suggests: 
+
