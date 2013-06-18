@@ -1,10 +1,16 @@
-# Set up default print arguments for printing tables:
-# xtable() makes data.frames more suitable for display
-# format() converts all of the data.frame variables to character*;
-# print() writes the xtable object to HTML
-
-# *print() for xtable throws a tantrum over Date and POSIXct variables,
-# so they have to be converted to character before printing 
+#' Print a data.frame to HTML.
+#'
+#' This function simplifies printing data.frames to HTML.
+#'
+#' @param df data.frame to print
+#' @param printdigits the number of digits to print for numeric variables 
+#' 
+#' @keywords prettyprint
+#' @export
+#' 
+#' @examples
+#' dfprintif(Orange)
+#' dfprintif(Orange[0, ], msg = "THEY ALL DIED")
 
 dfprint <- function(df, printdigits = 2) {
 
