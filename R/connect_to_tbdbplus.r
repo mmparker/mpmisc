@@ -17,8 +17,6 @@
 
 connect_to_tbdbplus <- function() {
 
-    require(RODBC)
-
     arch <- R.Version()$arch
 
     if(arch %in% "x86_64") { 

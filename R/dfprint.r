@@ -13,8 +13,6 @@
 
 dfprint <- function(df, printdigits = 2) {
 
-    require(xtable)
-
     print(
         xtable(format(df, 
                       na.encode = FALSE, 

@@ -6,6 +6,9 @@ Maintainer: Matt Parker <mattmparker@gmail.com>
 Description: A collection of miscellaneous functions for report-making.
 Depends:
     R (>= 3.0.1)
+Imports:
+    xtable,
+    RODBC
 License: MIT
 Collate:
     'connect_to_tbdbplus.r'
