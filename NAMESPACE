@@ -1,6 +1,8 @@
 export(connect_to_tbdbplus)
 export(dfprint)
 export(dfprintif)
+export(get_quarter)
 export(get_week_start)
 import(RODBC)
+import(lubridate)
 import(xtable)

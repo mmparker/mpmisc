@@ -8,7 +8,8 @@ Depends:
     R (>= 3.0.1)
 Imports:
     xtable,
-    RODBC
+    RODBC,
+    lubridate
 License: MIT
 Collate:
     'connect_to_tbdbplus.r'
@@ -16,3 +17,4 @@ Collate:
     'dfprintif.r'
     'get_week_start.r'
     'mpmisc-package.r'
+    'get_quarter.r'

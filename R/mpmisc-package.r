@@ -8,5 +8,5 @@
 #' @docType package
 #' @author Matt Parker \email{mattmparker@@gmail.com}
 #' @keywords package misc
-#' @import xtable RODBC
+#' @import xtable RODBC lubridate
 NULL
