@@ -34,7 +34,7 @@ get_quarter <- function(Date, offset = 0) {
 
 
     # Make sure Date is a Date
-    datecheck <- tryCatch(as.Date(Date), 
+    checked.Date <- tryCatch(as.Date(Date), 
         error = function(e) { 
             stop("The Date argument doesn't seem to be correctly formatted; try as.Date(yourdate) to make sure R can recognize it as a date.") } 
     )
@@ -57,7 +57,7 @@ get_quarter <- function(Date, offset = 0) {
     
 
     # If there's an offset, calculate the corresponding date
-    offset.date <- Date %m+% months(offset * 3)
+    offset.date <- checked.Date %m+% months(offset * 3)
     
 
     # Calculate start and end dates for quarters in offset.date's year - 
