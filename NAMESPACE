@@ -1,4 +1,3 @@
-export(connect_to_tbdbplus)
 export(dfprint)
 export(dfprintif)
 export(get_quarter)

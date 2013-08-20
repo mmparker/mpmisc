@@ -12,7 +12,6 @@ Imports:
     lubridate
 License: MIT
 Collate:
-    'connect_to_tbdbplus.r'
     'dfprint.r'
     'dfprintif.r'
     'get_week_start.r'
