@@ -1,3 +1,4 @@
+export(calc_percent)
 export(dfprint)
 export(dfprintif)
 export(get_quarter)

@@ -9,7 +9,9 @@ Depends:
 Imports:
     xtable,
     RODBC,
-    lubridate
+    lubridate,
+    ggplot2,
+    gridExtra
 License: MIT
 Collate:
     'dfprint.r'
@@ -17,3 +19,6 @@ Collate:
     'get_week_start.r'
     'mpmisc-package.r'
     'get_quarter.r'
+    'angle_x.r'
+    'calc_percent.r'
+    'theme_tb.r'
