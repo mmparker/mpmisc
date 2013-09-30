@@ -1,12 +1,12 @@
 \name{get_week_start}
 \alias{get_week_start}
-\title{Identify the start of the week for a given date.}
+\title{Identify the start of the week for a vector of dates.}
 \usage{
-  get_week_start(Date, start.day = "Monday",
+  get_week_start(dates, start.day = "Monday",
     weeks.back = 0)
 }
 \arguments{
-  \item{Date}{the input date}
+  \item{dates}{a vector of dates}
 
   \item{start.day}{the arbitrary first day of the week -
   defaults to Monday}
