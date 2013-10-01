@@ -32,6 +32,8 @@ get_week_start <- function(dates, start.day = "Monday", weeks.back = 0) {
 
     week.starts <- sapply(dates, simplify = TRUE, FUN = function(x) {
 
+        if(is.na(x)) { return(as.Date(NA)) }
+
         last.seven <- seq(from = x, length.out = 7, by = -1)
 
        week.start <- last.seven[format(last.seven, "%A") %in% start.day] - 
