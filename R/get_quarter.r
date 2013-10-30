@@ -76,7 +76,7 @@ get_quarter <- function(Date, offset = 0) {
                                    sep = "")), 
 
         end.date = as.Date(paste(year(offset.date),
-                                 c("-03-31", "-06-30", "-07-30", "-12-31"),
+                                 c("-03-31", "-06-30", "-09-30", "-12-31"),
                                  sep = ""))
 
     )
