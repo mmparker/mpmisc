@@ -22,6 +22,7 @@ dfprint <- function(df, printdigits = 2) {
         ),
         type = "html",
         include.rownames = FALSE,
-        NA.string = "--")
+        NA.string = "--",
+        comment = FALSE)
 }
 
